@@ -139,7 +139,7 @@ app.get('/stock-data', (req, res) => {
     }
 
     // IMPORTANT: Replace with your own Polygon.io API key
-    const apiKey = 'YOUR_POLYGON_API_KEY';
+    const apiKey = '4y6aoNovh2xUtlJdxBkRHC8UsppJ2jTI';
 
     if (apiKey === 'YOUR_POLYGON_API_KEY') {
         return res.status(400).json({ message: 'API key not configured on the server.' });
